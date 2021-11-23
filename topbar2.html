@@ -1,0 +1,110 @@
+    
+<div id=topbar>		<!--s topbar-->
+		<a href=# ><span class=whead>WMenu</span><span class=mhead style="padding:9px 1px;">&#10216;</span></a>
+		<a href=# ><span id="logo" class="icon icon-logo" ></span></a>	
+		<span class=right >				
+			<a  style="padding-left:1px;" href="#\" onclick="extbar_on();"><span class="icon icon-warning" title="connected"></span></a>
+			<a  style="padding-left:1px;" href="#\" onclick="snackbar('');"><span class="icon icon-user" title="HELLO "></span></a>
+			<a  style="padding-left:1px;" href="#\" onclick=reloadme();><span class="icon icon-sync" title="sync data"></span></a>
+			<a  style="padding-left:1px;" href="#\" onclick="rsslbar_on();"><span class="icon icon-gear" title="Setting"></span></a>
+            <!--<a  style="padding-left:1px;" href="#" onclick=sbconth2no();><span class="icon icon-menufold" title="LOGOUT"></span></a>-->
+			<a  style="padding-left:1px;" href="logout.php" ><span class="icon icon-sidebar" title="Logout"></span></a>									<a  style="padding-left:1px;" href="logout.php" ><span class="icon icon-logout" title="Logout"></span></a>	
+		</span>
+    </div>  <!--e topbar-->
+    
+<style>
+    .icon {
+	display: inline-flex;
+	/width: -8px;
+	/height: -8px;
+	background-size: cover;	
+	opacity: 0.9;
+	padding:14px 14px;
+	//margin-top:-3px; 
+mmargin-left:-10px;
+margin-left:0px;
+transform: scale(.70);}
+
+.icon:hover,
+.icon:focus {  
+    opacity: 1;
+	filter: invert(27%) sepia(51%) saturate(2878%) //hue-rotate(346deg) brightness(94%) contrast(100%);	
+}
+.icon-moon {
+	background-image: url(../img/moonblack.svg);
+	width:22px;	height:22px;
+	filter: brightness(1.75);
+	filter: brightness(50%);
+	filter: brightness(1);
+	filter: brightness(0%);
+	filter: invert(40%);
+	z-index:1;
+
+	}
+.icon-moon2 {
+	background-image: url(https://kit.itlgx.xyz/e/img/moonblack.svg);
+	width:22px;	height:22px;
+	
+	z-index:1;
+
+	}
+.icon-gear {
+	background-image: url(https://kit.itlgx.xyz/e/img/gear.svg);  
+}
+.icon-menufold {
+	background-image: url(https://kit.itlgx.xyz/e/img/menu-fold.svg);  
+}
+.icon-logout {
+  background-image: url(https://kit.itlgx.xyz/e/img/logout2.svg);    
+margin-top:-4px;
+}
+@media only screen and (max-width: 1100px) {
+.icon-menufold {filter :invert(100%);}
+}
+.icon-warning {
+  background-image: url(https://kit.itlgx.xyz/e/img/warning.svg); 
+filter: brightness(1.75);  
+  	filter: invert(100%);
+}
+.icon-sync {
+  background-image: url(https://kit.itlgx.xyz/e/img/sync.svg);  
+}
+.icon-user {
+  background-image: url(https://kit.itlgx.xyz/e/img/userw.svg);  
+   filter: invert(70%);
+	margin-top:0px;
+}
+.icon-recon {
+  background-image: url(https://kit.itlgx.xyz/e/img/recon.svg);    
+}
+.icon-logout {
+  background-image: url(https://kit.itlgx.xyz/e/img/logout2.svg);    
+margin-top:-4px;
+}
+.icon-sidebar {
+  background-image: url(https://kit.itlgx.xyz/e/img/sidebar_icon.svg);    
+margin-top:-4px;
+}
+.icon-logo {
+	background-image: url(https://kit.itlgx.xyz/e/img/icloud.svg);  
+	width: 26px;
+	height: 22px;
+//	filter: brightness(1.75);
+	//filter: invert(85%);
+		margin-top:-4px;
+}
+.customoon {
+	//filter:  brightness(0%) invert(1);
+	//filter: brightness(50%) invert(70%);
+	filter: invert(91%) sepia(47%) saturate(1810%) hue-rotate(313deg) brightness(106%) contrast(103%);
+	
+	}
+.custodark {
+	filter:  brightness(0%) invert(1);
+	//filter: brightness(50%) invert(70%);	
+	filter:  brightness(100%) invert(1);
+}
+.custolight {
+	body {background:inherit;}	
+}
+</style>
